@@ -4,8 +4,11 @@
     --surface: #FFFFFF;
 
     /* Sidebar */
-    --primary-dark: #4B2FE8;
-    --primary-light: #8B6CFF;
+    --primary-darker: #797298;
+    --primary-dark: #5c5380;
+    --secondary: #8B60A4;
+    --secondary-light: #c2a0ca;
+    --terciary: #ece4f2;
 
     /* Bordes */
     --border: #E5E7EB;
@@ -14,6 +17,121 @@
     --shadow: 0 6px 20px rgba(17,24,39,.08);
 }
 
-#sidebar {
-    background: linear-gradient(180deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns:260px 1fr;
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+/* SIDEBAR */
+#sidebar {
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    background-color: var(--primary-dark);
+    color: var(--surface);
+    padding:25px 15px;
+    box-shadow: var(--shadow);
+}
+
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+    color: var(--surface);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* NAVEGADOR */
+.navegador ul {
+    list-style: none;
+}
+
+.navegador li {
+    margin-bottom: 15px;
+    background-color: var(--primary-darker);
+    border-radius: 5px;
+}
+
+.navegador img {
+    width: 45px;
+    height: 45px;
+}
+
+.navegador a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #E4E9F2;
+    padding: 15px 18px;
+    transition: .25s;
+}
+
+.navegador span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navegador .active a {
+    background: var(--secondary-light);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(91, 61, 245, .35);
+}
+
+.navegador a:hover {
+    background: var(--terciary);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(91, 61, 245, .35);
+}
+
+
+/* MAIN */
+.main{
+    padding: 30px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
