@@ -13,3 +13,7 @@
     /* Sombra */
     --shadow: 0 6px 20px rgba(17,24,39,.08);
 }
+
+#sidebar {
+    background: linear-gradient(180deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+}
