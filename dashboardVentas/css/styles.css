@@ -1,0 +1,15 @@
+:root{
+    /* Fondo */
+    --bg: #F5F7FB;
+    --surface: #FFFFFF;
+
+    /* Sidebar */
+    --primary-dark: #4B2FE8;
+    --primary-light: #8B6CFF;
+
+    /* Bordes */
+    --border: #E5E7EB;
+
+    /* Sombra */
+    --shadow: 0 6px 20px rgba(17,24,39,.08);
+}
