@@ -317,3 +317,27 @@ main {
     width: 35px;
     text-align: right;
 }
+
+/* ENCABEZADO MIS PROYECTOS */
+.encabezado {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    margin-bottom: 25px;            
+}
+
+.encabezado .titulo {
+    display: flex;
+}
+
+.encabezado .enlace a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.encabezado .enlace a:hover {
+    color: var(--degradado1); 
+    transition: color 0.3s ease;
+}
