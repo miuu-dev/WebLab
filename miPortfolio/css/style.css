@@ -85,11 +85,13 @@ header nav a:hover, .active{
     font-weight: 600;
 }
 
-.logo .destacado {
+.destacado {
     font-size: 1.5rem;
     font-weight: 600;
     background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
@@ -164,7 +166,9 @@ main {
 .saludo {
     font-size: 1.5rem;
     background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
@@ -173,7 +177,9 @@ main {
 .trabajo {
     font-size: 2rem;
     background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
