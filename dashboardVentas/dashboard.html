@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
@@ -66,7 +67,12 @@
                 <p>Resumen mensual</p>
             </div>
 
-            <button type="button" aria-label="Exportar informe">Exportar</button>
+            <button type="button" aria-label="Exportar informe" class="btn">
+                <span class="icono">
+                    <img src="images/icons/exportar.png" alt="">
+                </span>
+                Exportar
+            </button>
         </header>
 
         <section class="stats">
@@ -165,6 +171,9 @@
             </article>
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
