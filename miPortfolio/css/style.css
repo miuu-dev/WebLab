@@ -1,0 +1,313 @@
+:root {
+    --bg-color: #080D22;
+    --header-color: #050717;
+
+    --card-bg: #111827;
+
+    --primary-accent: #6d28d9;
+    
+    --degradado1: #9365dd;
+    --degradado2: #6765dd;
+
+    --text-primary: #ffffff;
+
+    --text-secondary: #9ca3af;
+
+    --progress-bg: #2a272c;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+    background:var(--bg-color);
+    color: white;
+}
+
+/* HEADER */
+header {
+    background-color: var(--header-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+header nav a:hover, .active{
+    color: var(--primary-accent);
+}
+
+
+/* BOTÓN DEL HEADER */
+.btn-menu {
+    background-color: var(--bg-color);
+    border-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+}
+
+/* LOGO DEL HEADER */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 15%;
+    height: 15%;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo .destacado {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* SECCIÓN SOBRE MI */
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* MI INFO COMPLETA*/
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* MIS REDES */
+.redes {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.redes img {
+    width: 100%;
+    height: 25px;
+}
+
+/* MIS BOTONES */
+.botones-hero {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.botones-hero a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid var(--primary-accent);
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.botones-hero a:hover {
+    background-color: var(--primary-accent);
+    color: white;
+    transition: 0.3s;
+}
+
+/* MI IMAGEN */
+.imagen-hero img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-accent);
+}
+
+.imagen-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SALUDO */
+.saludo {
+    font-size: 1.5rem;
+    background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+/* MI DEDICACIÓN */
+.trabajo {
+    font-size: 2rem;
+    background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+/* MI NOMBRE */
+.name {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* SOBRE MI + HABILIDADES */
+.sobreMiHab {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr; 
+    gap: 30px;
+    align-items: stretch; 
+}
+
+/* ICONOS */
+.titulo img {
+    width: 25px;
+    height: 25px;
+}
+
+/* TITULOS */
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* SOBRE MI */
+.sobre-mi, .skills-section {
+    background-color: var(--card-bg); 
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre-mi .descripcion {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 20px 0;
+}
+
+/* BOTÓN SOBRE MI */
+.btn-sobremi {
+    background-color: transparent;
+    border: 1px solid var(--primary-accent);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sobremi:hover {
+    background-color: var(--primary-accent);
+}
+
+/* MIS HABILIDADES */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 35px;
+    margin-top: 25px;
+}
+
+.skills-grid img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.skills-grid .js {
+    border-radius: 6px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skills-section .lenguajeTitulo {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.skill-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.lenguajeTitulo, 
+.skill-item span:nth-of-type(1) {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    width: 95px; 
+    white-space: nowrap;
+}
+
+/* LÍNEA DE PROGRESO */
+.progress-bar {
+    flex-grow: 1;
+    height: 8px;
+    background-color: var(--progress-bg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-accent), #a855f7);
+    border-radius: 10px;
+}
+
+.skill-item span:nth-of-type(2) {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    width: 35px;
+    text-align: right;
+}
