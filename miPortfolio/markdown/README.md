@@ -146,10 +146,4 @@ El resultado es un sitio web moderno, elegante y limpio, diseñado específicame
 # 🌐 Enlace a la Web
 
 Puedes ver el resultado en directo aquí:  
-👉 [Mi Portfolio](https://miportfolio-site.netlify.app)
-
----
-
-# 💡 Nota
-
-Este proyecto forma parte de mi colección de páginas web con las que practico diferentes técnicas de desarrollo frontend. Mi objetivo es seguir mejorando proyecto a proyecto, aprendiendo nuevas herramientas y escribiendo un código cada vez más limpio y organizado.
+👉 [miportfolio-site.netlify.app](https://miportfolio-site.netlify.app)

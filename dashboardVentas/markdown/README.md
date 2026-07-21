@@ -171,9 +171,11 @@ Aunque el proyecto ya funciona correctamente, en el futuro me gustaría añadir:
 
 ---
 
-# 📸 Vista previa
+🌐 Enlace a la Web
 
-El resultado es un dashboard moderno con un diseño limpio, pensado para representar información de ventas de una forma visual e intuitiva.
+Puedes ver el resultado en directo aquí:
+👉 [Dashboard de Ventas](https://dashboardventas-site.netlify.app)
+
 
 ---
 
