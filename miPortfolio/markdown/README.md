@@ -140,10 +140,3 @@ Aunque el portfolio ya funciona correctamente, en el futuro me gustaría añadir
 # 📸 Vista previa
 
 El resultado es un sitio web moderno, elegante y limpio, diseñado específicamente para servir como escaparate profesional de mis trabajos y aprendizajes como desarrolladora.
-
----
-
-# 🌐 Enlace a la Web
-
-Puedes ver el resultado en directo aquí:  
-👉 [miportfolio-site.netlify.app](https://miportfolio-site.netlify.app)
