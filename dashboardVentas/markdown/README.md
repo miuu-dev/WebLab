@@ -176,7 +176,6 @@ Aunque el proyecto ya funciona correctamente, en el futuro me gustaría añadir:
 Puedes ver el resultado en directo aquí:
 👉 [Dashboard de Ventas](https://dashboardventas-site.netlify.app))
 
-- 
 
 ---
 
