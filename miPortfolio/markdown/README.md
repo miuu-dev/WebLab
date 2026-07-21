@@ -41,4 +41,4 @@ miPortfolio/
 ## 🌐 Enlace a la Web
 
 Puedes ver el resultado en directo aquí:  
-👉 [miportfolio-site.netlify.app](https://miportfolio-site.netlify.app)
+👉 [Mi Portfolio](https://miportfolio-site.netlify.app)
