@@ -137,13 +137,13 @@ Aunque el portfolio ya funciona correctamente, en el futuro me gustaría añadir
 
 ---
 
-# 📸 Vista previa
+🌐 Enlace a la Web
 
-El resultado es un sitio web moderno, elegante y limpio, diseñado específicamente para servir como escaparate profesional de mis trabajos y aprendizajes como desarrolladora.
+Puedes ver el resultado en directo aquí:
+👉 [Mi Portfolio](https://miuu-dev.github.io/WebLab/miPortfolio/)
 
 ---
 
-# 🌐 Enlace a la Web
+# 📸 Vista previa
 
-Puedes ver el resultado en directo aquí:  
-👉 [miportfolio-site.netlify.app](https://miportfolio-site.netlify.app)
+El resultado es un sitio web moderno, elegante y limpio, diseñado específicamente para servir como escaparate profesional de mis trabajos y aprendizajes como desarrolladora.
