@@ -174,7 +174,7 @@ Aunque el proyecto ya funciona correctamente, en el futuro me gustaría añadir:
 🌐 Enlace a la Web
 
 Puedes ver el resultado en directo aquí:
-👉 [https://miuu-dev.github.io/WebLab/dashboardVentas/](https://miuu-dev.github.io/WebLab/dashboardVentas/)
+👉 [Dashboard de Ventas](https://miuu-dev.github.io/WebLab/dashboardVentas/)
 
 
 ---
