@@ -174,7 +174,7 @@ Aunque el proyecto ya funciona correctamente, en el futuro me gustaría añadir:
 🌐 Enlace a la Web
 
 Puedes ver el resultado en directo aquí:
-👉 [Dashboard de Ventas](https://dashboardventas-site.netlify.app)
+👉 [https://miuu-dev.github.io/WebLab/dashboardVentas/](https://miuu-dev.github.io/WebLab/dashboardVentas/)
 
 
 ---
