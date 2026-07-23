@@ -17,7 +17,7 @@
 
 .header-controls button {
     background-color: rgba(0, 0, 0, 0.7);
-    color: var(--titulos);
+    color: var(--mostrar-todo);
     border: none;
     border-radius: 50%;
     width: 32px;
@@ -30,6 +30,7 @@
 }
 
 .header-controls button:hover {
+    color: var(--titulos);
     background-color: var(--background-cards);
 }
 
@@ -78,7 +79,7 @@
 }
 
 .header-profile-actions > i {
-    color: var(--titulos);
+    color: var(--mostrar-todo);
     font-size: 16px;
     background-color: var(--background-spotify);
     padding: 10px;
