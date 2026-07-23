@@ -137,6 +137,13 @@ Aunque el portfolio ya funciona correctamente, en el futuro me gustaría añadir
 
 ---
 
+🌐 Enlace a la Web
+
+Puedes ver el resultado en directo aquí:
+👉 [https://miuu-dev.github.io/WebLab/miPortfolio/](https://miuu-dev.github.io/WebLab/miPortfolio/)
+
+---
+
 # 📸 Vista previa
 
 El resultado es un sitio web moderno, elegante y limpio, diseñado específicamente para servir como escaparate profesional de mis trabajos y aprendizajes como desarrolladora.
