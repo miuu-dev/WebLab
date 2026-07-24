@@ -23,3 +23,9 @@ jobs:
         with:
           folder: miPortfolio
           target-folder: miPortfolio
+
+      - name: Deploy Spotify UI Clone
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: spotifyUIclone
+          target-folder: spotifyUIclone
