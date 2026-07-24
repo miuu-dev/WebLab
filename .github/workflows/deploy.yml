@@ -3,6 +3,7 @@ name: Deploy Multiple Projects
 on:
   push:
     branches: [ main ]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,20 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Deploy Dashboard Ventas
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dashboardVentas
-          target-folder: dashboardVentas
+      - name: Prepare Public Directory
+        run: |
+          mkdir -p public
+          # Copiamos cada proyecto a su propia subcarpeta dentro de public
+          cp -r dashboardVentas public/
+          cp -r miPortfolio public/
+          cp -r spotifyUIclone public/
 
-      - name: Deploy Mi Portfolio
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: miPortfolio
-          target-folder: miPortfolio
-
-      - name: Deploy Spotify UI Clone
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: spotifyUIclone
-          target-folder: spotifyUIclone
+          folder: public
+          target-folder: .
