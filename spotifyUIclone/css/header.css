@@ -1,23 +1,25 @@
-/* HEADER */
+/* HEADER PRINCIPAL */
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 65px;
-    padding: 0 24px;
-    background-color: var(--background-navegador);
-    gap: 16px;
+    height: 64px;
+    padding: 0 16px;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-/* BOTONES DE NAVEGACIÓN */
+/* BOTONES DE NAVEGACIÓN (Izquierda) */
 .header-controls {
     display: flex;
     gap: 8px;
+    flex-shrink: 0; /* Evita que se reduzcan */
 }
 
 .header-controls button {
     background-color: rgba(0, 0, 0, 0.7);
-    color: var(--mostrar-todo);
+    color: #ffffff;
     border: none;
     border-radius: 50%;
     width: 32px;
@@ -26,35 +28,33 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: background-color 0.2s ease;
 }
 
 .header-controls button:hover {
-    color: var(--titulos);
-    background-color: var(--background-cards);
+    background-color: #242424;
 }
 
-/* BARRA DE BÚSQUEDA CENTRAL */
+/* BARRA DE BÚSQUEDA (Centro) */
 .header-search {
     display: flex;
     align-items: center;
-    background-color: var(--background-cards);
+    background-color: #242424;
     border-radius: 500px;
-    padding: 0 16px;
+    padding: 0 12px;
     width: 100%;
     max-width: 364px;
     height: 48px;
-    gap: 12px;
+    gap: 10px;
     border: 1px solid transparent;
-    transition: border-color 0.2s ease;
+    
 }
 
 .header-search:hover {
-    border-color: var(--mostrar-todo);
+    border-color: #727272;
 }
 
 .header-search i {
-    color: var(--mostrar-todo);
+    color: #b3b3b3;
     font-size: 16px;
 }
 
@@ -62,27 +62,27 @@
     background: transparent;
     border: none;
     outline: none;
-    color: var(--titulos);
+    color: #ffffff;
     font-size: 14px;
     width: 100%;
 }
 
 .input-search::placeholder {
-    color: var(--mostrar-todo);
+    color: #b3b3b3;
 }
 
-/* ACCIONAR Y PERFIL */
+/* ACCIONES Y PERFIL (Derecha) */
 .header-profile-actions {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
 }
 
 .header-profile-actions > i {
-    color: var(--mostrar-todo);
+    color: #b3b3b3;
     font-size: 16px;
-    background-color: var(--background-spotify);
-    padding: 10px;
+    background-color: #121212;
+    padding: 8px;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
@@ -93,11 +93,11 @@
 }
 
 .header-profile-actions > i:hover {
+    color: #ffffff;
     transform: scale(1.04);
 }
 
-/* PERFIL */
-/* Contenedor de la foto de perfil */
+/* FOTO DE PERFIL */
 .header-profile {
     width: 32px;
     height: 32px;
