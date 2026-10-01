@@ -26,7 +26,6 @@ Tema1_Tarea2_MirunaGMatei/
 │   ├── 📁 general/            # Iconos e imágenes generales (competencias, formación, idiomas, etc.)
 │   ├── 📁 info-personal/      # Iconos de contacto (calendario, correo, teléfono, ubicación)
 │   └── 📁 logos/              # Foto de perfil y logotipos de empresas/instituciones
-├── 📁 PDFs/                   # Versión en PDF descargable del currículum
 ├── 📁 markdown/               # Fichero en formato markdown donde se encuentra toda la información y el enlace a la página web
 └── 📄 index.html              # Archivo principal de la página web
 ```
