@@ -21,6 +21,7 @@ jobs:
           cp -r miPortfolio public/
           cp -r spotifyUIclone public/
           cp -r curriculumVitae public/
+          cp -r bucle-for public/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
